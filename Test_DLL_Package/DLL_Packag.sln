@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestFun", "TestFun\TestFun.vcproj", "{94A7E2C5-2A05-49E6-9BB9-4F7D09A34021}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lib_h", "lib_h\lib_h.vcproj", "{9D939F57-CED9-4A87-8300-B8DE70D7B20C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestLoadLibrary", "TestLoadLibrary\TestLoadLibrary.vcproj", "{A813F797-8602-4A0E-9760-874E2C900233}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94A7E2C5-2A05-49E6-9BB9-4F7D09A34021}.Debug|Win32.ActiveCfg = Debug|Win32
+		{94A7E2C5-2A05-49E6-9BB9-4F7D09A34021}.Debug|Win32.Build.0 = Debug|Win32
+		{94A7E2C5-2A05-49E6-9BB9-4F7D09A34021}.Release|Win32.ActiveCfg = Release|Win32
+		{94A7E2C5-2A05-49E6-9BB9-4F7D09A34021}.Release|Win32.Build.0 = Release|Win32
+		{9D939F57-CED9-4A87-8300-B8DE70D7B20C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D939F57-CED9-4A87-8300-B8DE70D7B20C}.Debug|Win32.Build.0 = Debug|Win32
+		{9D939F57-CED9-4A87-8300-B8DE70D7B20C}.Release|Win32.ActiveCfg = Release|Win32
+		{9D939F57-CED9-4A87-8300-B8DE70D7B20C}.Release|Win32.Build.0 = Release|Win32
+		{A813F797-8602-4A0E-9760-874E2C900233}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A813F797-8602-4A0E-9760-874E2C900233}.Debug|Win32.Build.0 = Debug|Win32
+		{A813F797-8602-4A0E-9760-874E2C900233}.Release|Win32.ActiveCfg = Release|Win32
+		{A813F797-8602-4A0E-9760-874E2C900233}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
