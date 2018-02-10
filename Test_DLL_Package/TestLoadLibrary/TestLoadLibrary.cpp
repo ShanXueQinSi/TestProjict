@@ -1,7 +1,6 @@
 // TestLoadLibrary.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include <Windows.h> 
 #include <stdio.h> 
 
@@ -19,7 +18,7 @@ void _stdcall CallBack_Print_fun(int a)
 	printf("Recv result %d \n", a);
 }
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, CHAR* argv[])
 {
 
 	HINSTANCE hinstLib; 

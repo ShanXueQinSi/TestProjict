@@ -1,12 +1,14 @@
 
-#include "stdafx.h"
 #include "TestFun.h"
 
 int __stdcall TestFunAdd(int a, int b, int c)
 {
 	int iResult = a+b+c;
 
-	g_Notify(iResult);
+	if (NULL != g_Notify)
+	{
+		g_Notify(iResult);
+	}
 
 	return iResult;
 }
@@ -15,7 +17,10 @@ int __stdcall TestFunProduct(int a, int b, int c)
 {
 	int iResult = a*b*c;
 
-	g_Notify(iResult);
+	if (NULL != g_Notify)
+	{
+		g_Notify(iResult);
+	}
 
 	return iResult;
 }

@@ -21,7 +21,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
-			CharacterSet="1"
+			CharacterSet="0"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
@@ -175,24 +175,12 @@
 				RelativePath=".\lib_h.cpp"
 				>
 			</File>
-			<File
-				RelativePath=".\stdafx.cpp"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
-			<File
-				RelativePath=".\stdafx.h"
-				>
-			</File>
-			<File
-				RelativePath=".\targetver.h"
-				>
-			</File>
 			<File
 				RelativePath=".\TestFun.h"
 				>
@@ -204,14 +192,6 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 		</Filter>
-		<File
-			RelativePath=".\ClassDiagram1.cd"
-			>
-		</File>
-		<File
-			RelativePath=".\ReadMe.txt"
-			>
-		</File>
 	</Files>
 	<Globals>
 	</Globals>

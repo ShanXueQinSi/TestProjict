@@ -1,3 +1,4 @@
+#include <stdio.h> 
 
 typedef void (__stdcall *FUN_CALLBACK)(int a);
 FUN_CALLBACK g_Notify = NULL;

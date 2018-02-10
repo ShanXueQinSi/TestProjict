@@ -1,13 +1,10 @@
-// lib_h.cpp : Defines the entry point for the console application.
-//
-
-#include "stdafx.h"
+#include <stdio.h> 
 
 #include <Windows.h> 
 
 #include "TestFun.h"
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, CHAR* argv[])
 {
 	int i = TestFunAdd(1,2,9);
 	int j = TestFunProduct(1,2,9);
